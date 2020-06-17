@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .stars {
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .star {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    margin: 16px;
+    background-color: tomato;
+    -webkit-clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+            clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  
+  .hexagon:hover {
+    background-color: lightpink;
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%);
+    -webkit-transform: rotate(2880deg);
+            transform: rotate(2880deg);
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  
+  .frame:hover {
+    background-color:  lightgreen;
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+            clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+    -webkit-transform: rotate(2880deg);
+            transform: rotate(2880deg);
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  
+  .dialogs:hover {
+    background-color: lightskyblue;
+    -webkit-clip-path: polygon(8% 7%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+            clip-path: polygon(8% 7%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    -webkit-transform: rotate(2880deg);
+            transform: rotate(2880deg);
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
